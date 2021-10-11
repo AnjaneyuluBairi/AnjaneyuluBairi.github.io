@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #418bca;
+    background-image: url('../images/4.jpg');
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+.ButtonCV {
+    width: 45%;
+    height: 5%;
+    margin-left: 10%;
+    background-color: #eb89fd;
+    border-radius: 10%;
+}
+
+.helperCV {
+    font-family: 'Cabin', sans-serif;
+    font-size: medium;
+}
+
+.linkCV {
+    text-decoration: underline;
+    color: white;
+}
+
+.iiitpics {
+    width: 20%;
+}
+
+.FooterDiv {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.Github,
+.LinkedIn,
+.Gmail {
+    font-size: xx-large;
+    float: right;
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.Right {
+    margin-right: 4%;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    float: right;
+    /* font-family: 'Cabin', sans-serif; */
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Orbitron', sans-serif;
+}
+
+.RightUnderline {
+    /* font-family: 'Crimson Text', serif; */
+    /* background-color: #c7b9a7; */
+    border-bottom: 2px solid;
+}
+
+.Left {
+    float: left;
+    /* margin-left: 1%; */
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-family: ubuntu;
+    font-size: medium;
+}
+
+.Container {
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 98%;
+    clear: both;
+}
+
+.PicDiv {
+    width: 30%;
+    float: left;
+}
+
+.dp {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.IntroDiv {
+    margin-top: 3%;
+    color: white;
+}
+
+.NameDiv {
+    margin-left: 3%;
+    font-size: large;
+    font-family: 'Comfortaa', cursive;
+}
+
+.JSDiv {
+    width: 70%;
+    float: left;
+}
+
+.AboutMeDiv {
+    display: none;
+    padding: 4%;
+    width: 85%;
+    height: 64%;
+    border: 2px solid;
+    overflow: auto;
+    background-color: cadetblue;
+    font-family: 'Cabin', sans-serif;
+    background-image: url('../images/b3.jpg');
+}
+
+.AddBorderTop {
+    border-top: 2px solid;
+}
+
+.EC {
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.EC:last-child,
+.AddBorderBottom {
+    border-bottom: 2px solid;
+}
+
+.ECheader {
+    background-color: rgb(167, 111, 111);
+    /* background-color: #4fea32; */
+    /* background-color: tomato; */
+    padding: 2%;
+}
+
+.ECcontent {
+    display: none;
+    padding-left: 3%;
+}
+
+.MinusIcon {
+    display: none;
+}
+
+.PlusIcon,
+.MinusIcon {
+    float: right;
+}
+
+.active,
+.ECheader:hover {
+    background-color: rgb(179, 173, 179);
+    /* background-color: #4fea32; */
+    /* background-color: #555; */
+}
+
+.ULSideBar {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.LiSideBar {
+    padding: 1%;
+}
+
+.ContactMeDiv {
+    display: none;
+    width: 50%;
+    border-radius: 20%;
+    /* background-color: #b3c6d0; */
+    background-image: url('../images/4.jpg');
+    font-family: 'Cabin', sans-serif;
+}
+
+.ContactTable {
+    width: 100%;
+    height: 50%;
+    padding: 8%;
+}
+
+.ContactTable input {
+    border-radius: 10%;
+    width: 100%;
+    height: 75%;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.SubmitButton {
+    width: 30%;
+    height: 8%;
+    margin-bottom: 12%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 21px;
+    color: aqua;
+    background-color: #fa6246;
+}
+
+.HomeDiv {
+    /* font-family: 'Comfortaa', cursive; */
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: larger;
+}
+
+.InternalLinks {
+    text-decoration: underline;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar a {
+        float: none;
+        display: block;
+    }
+    .Github,
+    .LinkedIn,
+    .Gmail {
+        font-size: x-large;
+        float: right;
+        margin-right: 2%;
+        text-decoration: none;
+        color: white;
+    }
+    .Container {
+        margin-left: 2%;
+        display: block;
+    }
+    .PicDiv {
+        width: 75%;
+    }
+    .JSDiv {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .ContactMeDiv {
+        width: 80%;
+        border-radius: 20%;
+        background-color: #b3c6d0;
+    }
+    .AboutMeDiv {
+        height: 50%;
+    }
+    .Right {
+        float: left;
+        font-size: medium;
+    }
+    .SubmitButton {
+        width: 30%;
+        height: 8%;
+        margin-bottom: 12%;
+        font-family: sans-serif;
+        font-size: 15px;
+        color: aqua;
+        background-color: #fa6246;
+    }
+    .ButtonCV {
+        width: 30%;
+        height: 5%;
+        font-size: 50%;
+        margin-left: 10%;
+        background-color: #eb89fd;
+        border-radius: 10%;
+    }
+    .RightUnderline {
+        width: fit-content;
+    }
+}
