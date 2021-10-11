@@ -1,0 +1,205 @@
+<html>
+
+<head>
+    <title>Anjaneyulu Bairi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="displayDateTime()">
+
+    <div class="navbar">
+
+        <!-- <a class="Left" href="#" onclick="showHideDiv(2)"><i class="fa fa-fw fa-user"></i> About Me</a>
+        <a class="Left" href="#" onclick="showHideDiv(3)"><i class="fa fa-fw fa-envelope"></i> Contact Me</a> -->
+        <a class="Left RightUnderline" href="#" onclick="showHideDiv(1)"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a class="Left" href="#" onclick="showHideDiv(2)"><i class="fa fa-fw fa-user"></i> About Me</a>
+        <a class="Left" href="#" onclick="showHideDiv(3)"><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
+        <a class="Right">
+            <p id="datetime" class="DateTime"></p>
+        </a>
+    </div>
+
+
+    <div class="Container">
+        <div class="PicDiv" id="picdiv">
+            <img class="dp" alt="error while loading" src="https://i.ibb.co/H4HSyjc/pp.png">
+            <div class="IntroDiv">
+                <div class="NameDiv">
+                    <h2>Anjaneyulu Bairi</h2>
+                    <p class="helperCV">click <a class="linkCV" target="_blank" href="https://drive.google.com/file/d/1G5tcvV9-3ompyElVRl4ZQREsbWTCUoK5/view?usp=sharing">here</a> to see my <b>CV</b></p>
+                    <a target="_blank" href="https://www.iiit.ac.in"> <img style="background: white;width: 23%;" src="https://i.ibb.co/VW0L96D/12748004-10153558836593717-8278434251271038673-o.png"" alt="iiit"></a>
+                    <a target="_blank" href="https://www.rgukt.ac.in"><img src="https://i.ibb.co/PWVW2pw/rgukt.jpg" alt="rgukt" style="background: white;width: 22%;"></a>
+                    <!-- <button class="ButtonCV"><b>CV</b></a></button> -->
+                </div>
+            </div>
+        </div>
+        <div class="JSdiv">
+            <div id="contactme" class="ContactMeDiv">
+                <table class="ContactTable">
+                    <tr>
+                        <td>Name:</td>
+                        <td colspan="2"><input placeholder="Name" type="text"></td>
+
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td colspan="2"><input placeholder="abc@xyz.com" type="email"> </td>
+
+                    </tr>
+                    <tr>
+                        <td>Message:</td>
+                        <td colspan="2"><textarea placeholder="Your Message"></textarea></td>
+                    </tr>
+                </table>
+                <center>
+                    <div>
+                        <input class="SubmitButton" type="submit" value="submit">
+                    </div>
+                </center>
+            </div>
+            <div id="aboutme" class="AboutMeDiv">
+                <div class="EC">
+                    <div id="ECbasicdeatils" class="ECheader ECBasicDetails">
+                        <span class="PlusIcon"><i class="fa fa-chevron-down"></i></span>
+                        <span class="MinusIcon"><i class="fa fa-chevron-left"> </i> </span>
+                        <span><b>Who am I</b></span>
+                    </div>
+                    <div id="basicdetails" class="ECcontent BasicDetailsDiv">
+                        <ul>
+                            <li>
+                                <h4>A who is enthusiastic about Computer Science</h4>
+                            </li>
+                            <li>
+                                <h4>The Interest that I have towards computer cience made me as a CSE student</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="EC">
+                    <div id="ECeducationdetails" class="ECheader ECEdcationDeatils">
+                        <span class="PlusIcon"><i class="fa fa-chevron-down"></i></span>
+                        <span class="MinusIcon"><i class="fa fa-chevron-left"> </i> </span>
+                        <span><b>Education</b></span>
+                    </div>
+                    <div id="education" class="ECcontent EducationDiv">
+                        <ul>
+                            <li>
+                                <h4>Currently I am a student at <a class="InternalLinks" target="_blank" href="https://www.iiit.ac.in"> IIIT Hyderabd</a></h4>
+                            </li>
+                            <li>
+                                <h4>Pursuing M.Tech in Computer Science and Information Technology at <a class="InternalLinks" target="_blank" href="https://www.iiit.ac.in"> IIIT Hyderabd</a></h4>
+                            </li>
+                            <li>
+                                <h4>I holds my under graduate degree from <a class="InternalLinks" target="_blank" href="https://www.rgukt.ac.in">RGUKT-BASAR</a></h4>
+                            </li>
+                            <li>
+                                <h4>I did my PUC(Pre university course) at <a class="InternalLinks" target="_blank" href="https://www.rgukt.ac.in">RGUKT-BASAR</a></h4>
+                            </li>
+                            <li>
+                                <h4>I completed SSC(10<sup>th</sup>) in SVNHS which is located in my village</h4>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="EC">
+                    <div id="ECworkdetails" class="ECheader ECWorkDetails">
+                        <span class="PlusIcon"><i class="fa fa-chevron-down"></i></span>
+                        <span class="MinusIcon"><i class="fa fa-chevron-left"> </i> </span>
+                        <span><b>Work Experience</b></span>
+                    </div>
+                    <div id="work" class="ECcontent WorkDiv">
+                        <ul>
+                            <li>
+                                <h4>I worked as Assistant System Engineer Trainee in Tata consultancy services</h4>
+                            </li>
+                            <li>
+                                <h4>I worked as Member Techincal in ADP Pvt. Ltd.</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="EC">
+                    <div id="ECprojectdeatils" class="ECheader ECProjectDetails">
+                        <span class="PlusIcon"><i class="fa fa-chevron-down"></i></span>
+                        <span class="MinusIcon"><i class="fa fa-chevron-left"> </i> </span>
+                        <span><b>Projects</b></span>
+
+                    </div>
+                    <div id="projects" class="ECcontent ProjectsDiv">
+                        <ul>
+                            <li>
+                                <h4>Quron ,The Basic representation and functionality</h4>
+                                <p>please visit the link for more Information <a style="color: white;" href="https://link.springer.com/chapter/10.1007/978-981-13-7082-3_39">Link</a></p>
+                            </li>
+                            <li>
+                                <h4>Efficient way of storing files using blockchain</h4>
+                            </li>
+                            <li>
+                                <h4>Leave Management system</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="EC">
+                    <div id="Hobbiesdetails" class="ECheader ECHobbiesDetails">
+                        <span class="PlusIcon"><i class="fa fa-chevron-down"></i></span>
+                        <span class="MinusIcon"><i class="fa fa-chevron-left"> </i> </span>
+                        <span><b>Hobbies and interests</b></span>
+                    </div>
+                    <div id="Hobbies" class="ECcontent HobbiesDiv">
+                        <ul>
+                            <li>
+                                <h4>Watching <em>Sci-fi</em> movies</h4>
+                            </li>
+                            <li>
+                                <h4>Playing Cricket,Chess</h4>
+                            </li>
+                            <li>
+                                <h4>Love to explore new places</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div id="home" class="HomeDiv">
+                <div id="details" class="DetailsDiv">
+                    <h1>Hi</h1>
+                    <h2>Welcome to my portfolio</h2>
+                    <p>Here you can find details about me ,my education ,interests and hobbies</p>
+                    <p> Please go through the links on the top right to explore more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="FooterDiv" id="footer">
+        <a class="LinkedIn" target="_blank" href="https://www.linkedin.com/in/anjaneyulu-bairi/"> <i class="fa fa-linkedin-square"></i></a>
+        <a class="Github" target="_blank" href="https://github.com/AnjaneyuluBairi"><i class="fa fa-github"></i></a>
+        <a class="Gmail" target="_blank" href="mailto:anji.bairi98@gmail.com"><i class="fa fa-envelope"></i></a>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
